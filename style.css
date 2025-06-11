@@ -1,0 +1,139 @@
+body {
+    margin: 0;
+    text-align: center;
+}
+
+
+
+.Top-container {
+    background-color: #e4f9f5;
+    position: relative;
+    padding-top: 100px;
+    margin: 0;
+
+
+}
+
+.cloud1 {
+    position: absolute;
+    right: 300px;
+    top: 40px;
+}
+
+h1 {
+    font-family: "Sacramento", cursive;
+    font-weight: bold;
+    font-style: normal;
+    margin: 0;
+    font-size: 100px;
+    color: #66bfbf;
+}
+
+
+h2 {
+    font-family: "Montserrat", sans-serif;
+    color: #66bfbf;
+    font-size: 2.5rem;
+    font-weight: normal;
+    padding-bottom: 10px;
+}
+
+.cloud2 {
+    position: absolute;
+    left: 200px;
+    bottom: 300px;
+}
+
+
+.middle-container {
+    margin: 100px 0;
+
+}
+
+
+
+.thorfinn {
+    height: 100px;
+    border-radius: 50%;
+}
+
+.intro {
+    font-size: 20px;
+    width: 30%;
+    margin: auto;
+    text-align: center;
+}
+
+hr {
+    border: dotted #eaf6f6 6px;
+    width: 4%;
+    margin: 100px auto;
+    border-bottom: none;
+}
+
+.parent {
+    display: grid;
+    grid-template-columns: 0.5fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    width: 50%;
+    margin: 100px auto 0 auto;
+    row-gap: 2rem;
+}
+
+.cat {
+    display: flex;
+    justify-content: left;
+}
+
+h3 {
+    color: #11999e;
+    font-family: "Montserrat", sans-serif;
+
+    margin: 18px 0 18px 0;
+}
+
+.man {
+    text-align: left;
+}
+
+p {
+    line-height: 2;
+    font-size: 18px;
+}
+
+.chill-image {
+    width: 50%;
+    margin-left: 30px;
+    display: flex;
+    justify-content: left;
+}
+
+.btn {
+    background-image: linear-gradient(to bottom, #11cdd4, #11999e);
+    -webkit-border-radius: 8;
+    -moz-border-radius: 8;
+    border-radius: 8px;
+    font-family: "Montserrat", sans-serif;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+}
+
+.bottom-container {
+    background-color: #66bfbf;
+    padding: 50px 0 20px;
+}
+
+a{
+    color: #11999e;
+    font-family: "Montserrat", sans-serif;
+    margin: 10px 20px;
+    text-decoration: none;
+}
+
+.copyright {
+    color: #eaf6f6;
+    font-size: 0.75rem;
+    padding: 20px 0;
+}
